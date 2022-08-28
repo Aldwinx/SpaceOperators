@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/space_operators_nav_graph"
+        app:startDestination="@id/createGameFragment">
+
+    <fragment
+            android:id="@+id/createGameFragment"
+            android:name="com.cci.spaceoperators.games.create.CreateGameFragment"
+            android:label="CreateGameFragment" >
+        <action
+                android:id="@+id/action_createGameFragment_to_mainMenuFragment"
+                app:destination="@id/mainMenuFragment" />
+    </fragment>
+    <fragment
+            android:id="@+id/historyGamesFragment"
+            android:name="com.cci.spaceoperators.games.history.HistoryGamesFragment"
+            android:label="HistoryGamesFragment" >
+        <action
+                android:id="@+id/action_historyGamesFragment_to_mainMenuFragment"
+                app:destination="@id/mainMenuFragment" />
+    </fragment>
+    <fragment
+            android:id="@+id/mainMenuFragment"
+            android:name="com.cci.spaceoperators.mainMenu.MainMenuFragment"
+            android:label="MainMenuFragment" >
+        <action
+                android:id="@+id/action_mainMenuFragment_to_createGameFragment"
+                app:destination="@id/createGameFragment" />
+        <action
+                android:id="@+id/action_mainMenuFragment_to_historyGamesFragment"
+                app:destination="@id/historyGamesFragment" />
+    </fragment>
+</navigation>

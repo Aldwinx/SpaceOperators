@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">SpaceOperators</string>
+    <string name="default_player_name">Invité</string>
+
+    <string name="menu_create">Créer une partie</string>
+    <string name="menu_join">Rejoindre une partie</string>
+    <string name="menu_history">Historique</string>
+    <string name="menu_change_username">Entrez votre nouveau nom</string>
+    <string name="menu_save">Enregistrer</string>
+    <string name="menu_placeholder">Nouveau pseudo</string>
+    <string name="menu_leave">Quitter</string>
+
+    <string name="create_game_ip">Votre IP :</string>
+    <string name="create_game_port">Votre Port :</string>
+    <string name="create_game_connected_players">Joueurs connectées :</string>
+    <string name="create_game_ready">Prêt</string>
+    <string name="create_game_not_ready">Non prêt</string>
+    <string name="create_game_start">Démarrer la partie</string>
+
+    <string name="join_game_ip">IP de l\'hôte :</string>
+    <string name="join_game_port">Port de l\'hôte :</string>
+    <string name="join_game_connect">Connexion</string>
+    <string name="join_game_ready">Se mettre prêt</string>
+    <string name="join_game_not_ready">Se mettre non prêt</string>
+
+    <string name="current_game_id">Votre ID :</string>
+    <string name="current_game_turn">Tour :</string>
+    <string name="current_game_remaining_time">Temps restant :</string>
+    <string name="current_game_waiting">En attente de la prochaine opération</string>
+    <string name="current_game_instructor">Vos instructions</string>
+    <string name="current_game_operator">En attente d\'instructions</string>
+
+    <string name="history_games_team">L\'équipe</string>
+    <string name="history_games_turn">Tours réalisés</string>
+
+    <string name="return_menu">Retour sur le menu</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
